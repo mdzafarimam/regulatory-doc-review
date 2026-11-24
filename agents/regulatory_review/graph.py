@@ -24,23 +24,20 @@ from agents.regulatory_review.reviewers import (
     completeness_agent,
     compliance_agent,
     prepare_document,
+    request_document,
     safety_agent,
     supervisor_agent,
+    validate_document,
 )
 from agents.regulatory_review.state import ReviewState
 
 
 def build_review_graph():
-    """Build the LangGraph StateGraph for the multi-agent review system.
-
-    Flow:
-        START -> [completeness, compliance, clarity, safety] (run in parallel)
-              -> supervisor (consolidates findings into final_report)
-              -> END
-    """
+    """Build a review graph that requests missing documents before review."""
     graph = StateGraph(ReviewState)
 
     graph.add_node("prepare_document", prepare_document)
+    graph.add_node("request_document", request_document)
     graph.add_node("completeness", completeness_agent)
     graph.add_node("compliance", compliance_agent)
     graph.add_node("clarity", clarity_agent)
@@ -49,12 +46,15 @@ def build_review_graph():
 
     graph.add_edge(START, "prepare_document")
 
-    # Fan-out: all four specialist reviewers run in parallel after the
-    # document has been resolved from either direct input or chat messages.
+    graph.add_conditional_edges(
+        "prepare_document",
+        validate_document,
+        ["request_document", "completeness", "compliance", "clarity", "safety"],
+    )
     for reviewer_node in ("completeness", "compliance", "clarity", "safety"):
-        graph.add_edge("prepare_document", reviewer_node)
         graph.add_edge(reviewer_node, "supervisor")
 
+    graph.add_edge("request_document", END)
     graph.add_edge("supervisor", END)
 
     return graph.compile()
