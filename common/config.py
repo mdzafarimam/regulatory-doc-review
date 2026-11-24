@@ -10,7 +10,8 @@ try:
     # certifi CA bundle with certs from the OS (Windows) trust store, so
     # outbound HTTPS calls (OpenAI, LangSmith, etc.) can verify certificates.
     import certifi_win32  # noqa: F401
-except ImportError:
+except (ImportError, KeyError):
+    # Not on Windows (e.g. a Linux Agent Server), so there is no Windows trust store.
     pass
 
 load_dotenv(Path(__file__).resolve().parent.parent / ".env")

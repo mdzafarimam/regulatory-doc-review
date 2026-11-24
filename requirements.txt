@@ -7,4 +7,4 @@ python-dotenv
 requests
 langgraph-checkpoint-sqlite
 langsmith
-python-certifi-win32
+python-certifi-win32; sys_platform == "win32"
