@@ -3,9 +3,13 @@ LangSmith (Datasets & Experiments -> + New Dataset -> Upload CSV).
 
 LangSmith's CSV upload lets you map one or more columns to "Input" fields and
 one or more columns to "Output" fields. This script writes one column per
-input/output key used in `dataset.py`:
+input/output key required by the graph's state schema (`ReviewState`) plus
+the reference output fields used in `dataset.py`:
 
+    messages          -> input field "messages" (empty list, JSON-encoded)
     document          -> input field "document"
+    reviews           -> input field "reviews" (empty list, JSON-encoded)
+    final_report      -> input field "final_report" (empty string)
     reference_notes   -> output field "reference_notes"
     expected_verdict  -> output field "expected_verdict"
 
@@ -16,13 +20,14 @@ Usage:
 After generating the CSV, in the LangSmith UI:
     1. Go to Datasets & Experiments -> "+ New Dataset" -> "Upload a CSV file".
     2. Select the generated CSV.
-    3. Map the "document" column as Input, and "reference_notes" /
-       "expected_verdict" columns as Output.
+    3. Map "messages", "document", "reviews", and "final_report" columns as
+       Input, and "reference_notes" / "expected_verdict" columns as Output.
     4. Name the dataset (e.g. "regulatory-review-eval") and create it.
 """
 
 import argparse
 import csv
+import json
 import sys
 from pathlib import Path
 
@@ -33,7 +38,14 @@ from agents.regulatory_review.evaluation.dataset import get_dataset_examples
 
 DEFAULT_OUT_PATH = Path(__file__).resolve().parent / "golden_dataset.csv"
 
-FIELDNAMES = ["document", "reference_notes", "expected_verdict"]
+FIELDNAMES = [
+    "messages",
+    "document",
+    "reviews",
+    "final_report",
+    "reference_notes",
+    "expected_verdict",
+]
 
 
 def export_to_csv(out_path: Path = DEFAULT_OUT_PATH) -> Path:
@@ -49,7 +61,10 @@ def export_to_csv(out_path: Path = DEFAULT_OUT_PATH) -> Path:
             outputs = example.get("outputs", {})
             writer.writerow(
                 {
+                    "messages": json.dumps(inputs.get("messages", [])),
                     "document": inputs.get("document", ""),
+                    "reviews": json.dumps(inputs.get("reviews", [])),
+                    "final_report": inputs.get("final_report", ""),
                     "reference_notes": outputs.get("reference_notes", ""),
                     "expected_verdict": outputs.get("expected_verdict", ""),
                 }

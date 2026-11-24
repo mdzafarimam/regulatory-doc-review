@@ -22,7 +22,12 @@ def _load(filename: str) -> str:
 
 EXAMPLES = [
     {
-        "inputs": {"document": _load("sample_clinical_protocol.txt")},
+        "inputs": {
+            "messages": [],
+            "document": _load("sample_clinical_protocol.txt"),
+            "reviews": [],
+            "final_report": "",
+        },
         "outputs": {
             "reference_notes": (
                 "COMPLETENESS: Missing Scope section, missing Risk Assessment "
@@ -51,7 +56,12 @@ EXAMPLES = [
         },
     },
     {
-        "inputs": {"document": _load("sample_complete_protocol.txt")},
+        "inputs": {
+            "messages": [],
+            "document": _load("sample_complete_protocol.txt"),
+            "reviews": [],
+            "final_report": "",
+        },
         "outputs": {
             "reference_notes": (
                 "This is a well-formed protocol synopsis intended as a "
@@ -83,7 +93,12 @@ EXAMPLES = [
         },
     },
     {
-        "inputs": {"document": _load("sample_investigator_brochure_excerpt.txt")},
+        "inputs": {
+            "messages": [],
+            "document": _load("sample_investigator_brochure_excerpt.txt"),
+            "reviews": [],
+            "final_report": "",
+        },
         "outputs": {
             "reference_notes": (
                 "This document is deliberately poor and should receive a "
@@ -116,7 +131,12 @@ EXAMPLES = [
         },
     },
     {
-        "inputs": {"document": _load("sample_package_insert_draft.txt")},
+        "inputs": {
+            "messages": [],
+            "document": _load("sample_package_insert_draft.txt"),
+            "reviews": [],
+            "final_report": "",
+        },
         "outputs": {
             "reference_notes": (
                 "COMPLETENESS: Core prescribing-information sections are "
@@ -147,7 +167,12 @@ EXAMPLES = [
         },
     },
     {
-        "inputs": {"document": _load("sample_psur_excerpt.txt")},
+        "inputs": {
+            "messages": [],
+            "document": _load("sample_psur_excerpt.txt"),
+            "reviews": [],
+            "final_report": "",
+        },
         "outputs": {
             "reference_notes": (
                 "This is a well-structured, compliant Periodic Safety Update "

@@ -1,5 +1,5 @@
-"document","reference_notes","expected_verdict"
-"CLINICAL STUDY PROTOCOL SYNOPSIS
+"messages","document","reviews","final_report","reference_notes","expected_verdict"
+"[]","CLINICAL STUDY PROTOCOL SYNOPSIS
 
 Protocol Title: A Phase II, Randomized, Double-Blind, Placebo-Controlled Study to
 Evaluate the Efficacy and Safety of GSK-9921 in Adult Patients with Moderate-to-Severe
@@ -67,12 +67,12 @@ two-sided alpha of 0.05.
 2. FDA Guidance for Industry: Psoriasis - Developing Drugs for Treatment, 2018.
 
 --- END OF SYNOPSIS ---
-","COMPLETENESS: Missing Scope section, missing Risk Assessment section, missing Approval/Sign-off section. Methodology present but lacks randomization/blinding detail. Safety Data present but lacks a detailed monitoring plan/stopping criteria.
+","[]","","COMPLETENESS: Missing Scope section, missing Risk Assessment section, missing Approval/Sign-off section. Methodology present but lacks randomization/blinding detail. Safety Data present but lacks a detailed monitoring plan/stopping criteria.
 COMPLIANCE: Unsupported efficacy/safety claims ('good tolerability', 'acceptable safety profile') without supporting data/citations (ICH E6(R2)); missing disclosure of infection risk tied to the immunomodulatory mechanism; exclusion criteria omit history of malignancy/autoimmune disease; no mandatory pregnancy testing specified; no statistical method for handling missing data.
 CLARITY: Undefined acronyms on first use (PASI, DLQI, IGA, BSA); inconsistent terminology for efficacy endpoints; dense technical jargon without explanation (e.g., two-sided alpha of 0.05); 'serious infections' not defined.
 SAFETY: No detail on adverse-event management/dose adjustment or discontinuation criteria; no mention of Phase I observed AEs; monitoring limited to routine labs and infection signs only.
 EXPECTED VERDICT: Approve with changes.","approve with changes"
-"CLINICAL STUDY PROTOCOL SYNOPSIS
+"[]","CLINICAL STUDY PROTOCOL SYNOPSIS
 
 Protocol Title: A Phase III, Randomized, Double-Blind, Placebo-Controlled Study to
 Evaluate the Efficacy and Safety of GSK-4410 in Adult Patients with Type 2 Diabetes
@@ -190,12 +190,12 @@ prior to enrollment. Signatures on file with the Sponsor's Clinical Trial Master
 File (TMF).
 
 --- END OF SYNOPSIS ---
-","This is a well-formed protocol synopsis intended as a 'near-complete' positive control. COMPLETENESS: All required sections are present (Title, Scope, Objectives, Methodology, Risk Assessment, Safety Data, References, Approval/Sign-off) with reasonable detail including randomization/blinding methodology and a DSMB.
+","[]","","This is a well-formed protocol synopsis intended as a 'near-complete' positive control. COMPLETENESS: All required sections are present (Title, Scope, Objectives, Methodology, Risk Assessment, Safety Data, References, Approval/Sign-off) with reasonable detail including randomization/blinding methodology and a DSMB.
 COMPLIANCE: Efficacy/safety claims are supported by a cited Phase II study (GSK-4410-204); known class risks (thyroid C-cell tumors, pancreatitis) are disclosed with appropriate caveats about human relevance; pregnancy testing and contraception requirements are specified; missing-data handling (MMRM, multiple imputation) and multiplicity control are specified. Reviewers may still flag minor items such as lack of explicit dose-adjustment detail for hepatic impairment, but overall this document should score materially better on compliance/completeness than a document with major gaps.
 CLARITY: Acronyms are generally defined at first use (HbA1c, IWRS, DSMB); a few secondary acronyms (CGM, MMRM) are used without expansion and could be flagged as minor.
 SAFETY: Risk assessment explicitly discusses mechanism-based theoretical risks with mitigation, monitoring (calcitonin, solicited GI AEs), stopping rules, and DSMB oversight.
 EXPECTED VERDICT: Approve (or Approve with minor changes).","approve"
-"INVESTIGATOR'S BROCHURE SUMMARY (EXCERPT)
+"[]","INVESTIGATOR'S BROCHURE SUMMARY (EXCERPT)
 
 Product: GSK-7734 (oral small-molecule JAK1 inhibitor)
 Indication: Moderate-to-severe atopic dermatitis
@@ -234,12 +234,12 @@ REFERENCES
 None listed in this excerpt.
 
 --- END OF EXCERPT ---
-","This document is deliberately poor and should receive a strongly negative review. COMPLIANCE: Promotional, unsupported marketing-style claims ('works really well', 'basically safe', 'better than competitor products', 'Patients love it') are inappropriate for an Investigator's Brochure and violate ICH E6(R2) standards for objective, data-driven safety communication. The known JAK-inhibitor class boxed-warning risks (serious infection, MACE, VTE, malignancy, thrombosis) are named but not quantified with trial incidence data, and no monitoring or dose-adjustment guidance is given despite being standard-of-care for this drug class.
+","[]","","This document is deliberately poor and should receive a strongly negative review. COMPLIANCE: Promotional, unsupported marketing-style claims ('works really well', 'basically safe', 'better than competitor products', 'Patients love it') are inappropriate for an Investigator's Brochure and violate ICH E6(R2) standards for objective, data-driven safety communication. The known JAK-inhibitor class boxed-warning risks (serious infection, MACE, VTE, malignancy, thrombosis) are named but not quantified with trial incidence data, and no monitoring or dose-adjustment guidance is given despite being standard-of-care for this drug class.
 COMPLETENESS: Nonclinical Overview and Clinical Experience sections are placeholders with no actual data ('Everything looked fine', 'data tables available upon request'); no References section; no sign-off/approval section.
 CLARITY: Vague, non-specific statements throughout ('Investigators should use clinical judgement') provide no actionable guidance.
 SAFETY: Does not quantify observed AE incidence, does not describe required monitoring (lipid panel, lymphocyte counts) or hepatic/renal dose adjustments for a boxed-warning drug class.
 EXPECTED VERDICT: Reject (requires substantial rewrite before resubmission).","reject"
-"PACKAGE INSERT / PRESCRIBING INFORMATION (DRAFT EXCERPT)
+"[]","PACKAGE INSERT / PRESCRIBING INFORMATION (DRAFT EXCERPT)
 
 Product Name: Cardiozine (fictional brand) / GSK-5512 (generic substance)
 Dosage Form: Oral tablet, 50 mg and 100 mg
@@ -288,12 +288,12 @@ endpoint of CV death or HF hospitalization versus placebo (HR not stated in
 this excerpt; full results pending publication).
 
 --- END OF DRAFT EXCERPT ---
-","COMPLETENESS: Core prescribing-information sections are present (Indications, Dosage, Contraindications, Warnings, Adverse Reactions, Drug Interactions, Use in Specific Populations, Clinical Studies) but several are explicitly incomplete ('not included in this excerpt', 'not further described'), notably the renal dosing table and full drug-interaction list.
+","[]","","COMPLETENESS: Core prescribing-information sections are present (Indications, Dosage, Contraindications, Warnings, Adverse Reactions, Drug Interactions, Use in Specific Populations, Clinical Studies) but several are explicitly incomplete ('not included in this excerpt', 'not further described'), notably the renal dosing table and full drug-interaction list.
 CLARITY: Uses non-standard abbreviations/shorthand ('tx', 'pts', 'CV', '50mg') inappropriate for formal prescribing information; inconsistent spacing/formatting of dose units.
 COMPLIANCE: Adverse reaction incidence is stated only as "">= 5%"" without comparator rates or a table, which is insufficient for FDA/EMA labeling standards; geriatric-use statement claims no safety/efficacy differences without citing supporting subgroup data; the pivotal trial result is referenced without the actual hazard ratio or p-value.
 SAFETY: Hyperkalemia/hypotension/renal monitoring are mentioned but lack specific thresholds, periodicity, or stopping/action criteria; CYP3A4 interaction is flagged as a contraindication without explaining the mechanism or risk.
 EXPECTED VERDICT: Approve with changes (major revisions needed before the excerpt could be finalized).","approve with changes"
-"PERIODIC SAFETY UPDATE REPORT (PSUR) - EXECUTIVE SUMMARY (EXCERPT)
+"[]","PERIODIC SAFETY UPDATE REPORT (PSUR) - EXECUTIVE SUMMARY (EXCERPT)
 
 Product: GSK-2290 (monoclonal antibody, anti-IL-5)
 Indication: Severe eosinophilic asthma
@@ -352,7 +352,7 @@ APPROVAL
 Reviewed and approved by Global Patient Safety and Regulatory Affairs.
 
 --- END OF EXCERPT ---
-","This is a well-structured, compliant Periodic Safety Update Report executive summary and should score favorably. COMPLETENESS: Standard ICH E2C(R2) PSUR sections are all present: introduction, marketing authorization status, actions taken, RSI changes, exposure estimates, case presentation, signal evaluation, benefit-risk analysis, conclusion, references, and approval/sign-off.
+","[]","","This is a well-structured, compliant Periodic Safety Update Report executive summary and should score favorably. COMPLETENESS: Standard ICH E2C(R2) PSUR sections are all present: introduction, marketing authorization status, actions taken, RSI changes, exposure estimates, case presentation, signal evaluation, benefit-risk analysis, conclusion, references, and approval/sign-off.
 COMPLIANCE: Identified risks (hypersensitivity) are correctly cross-referenced to the Risk Management Plan; signal evaluation process is described; benefit-risk conclusion is stated with rationale; cites ICH E2C(R2) appropriately.
 CLARITY: Terminology is consistent and standard for pharmacovigilance documents (SAE, CCDS, RMP all used correctly); minor opportunity to spell out acronyms like CCDS on first use for a general audience.
 SAFETY: Reports concrete counts (410 SAEs, 18 hypersensitivity cases, 6 fatal cases with causality assessment) and an evaluated new signal (injection-site nodules) with a documented monitoring decision, which is appropriately detailed safety reporting.
