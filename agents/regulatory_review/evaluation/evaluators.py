@@ -7,6 +7,8 @@ Each evaluator function follows the LangSmith `evaluate()` signature:
 `example.outputs` holds the reference data from the dataset.
 """
 
+import re
+
 from langchain_core.messages import HumanMessage, SystemMessage
 from pydantic import BaseModel, Field
 
@@ -94,15 +96,50 @@ def structure_evaluator(run, example) -> dict:
     return {"key": "structure", "score": score, "comment": comment}
 
 
+def _extract_verdict(final_report: str) -> str | None:
+    """Read the leading verdict label in the Overall Verdict section."""
+    section = re.search(
+        r"^[ \t]*(?:#{1,6}[ \t]*)?(?:\d+[.)][ \t]*)?"
+        r"(?:\*\*)?Overall Verdict(?:\*\*)?[ \t]*:?[ \t]*(?:\*\*)?",
+        final_report,
+        re.IGNORECASE | re.MULTILINE,
+    )
+    if not section:
+        return None
+    verdict = re.match(
+        r"[\s*:\-]*(approve with minor changes|approve with changes|approve|reject)\b",
+        final_report[section.end() :],
+        re.IGNORECASE,
+    )
+    if not verdict:
+        return None
+    label = verdict.group(1).lower()
+    return "approve" if label == "approve with minor changes" else label
+
+
 def verdict_present_evaluator(run, example) -> dict:
     """Checks that the final report contains one of the allowed verdict labels."""
-    final_report = (run.outputs or {}).get("final_report", "").lower()
-    allowed = ["approve with changes", "approve", "reject"]
-    present = any(v in final_report for v in allowed)
+    final_report = (run.outputs or {}).get("final_report", "")
+    present = _extract_verdict(final_report) is not None
     return {
         "key": "verdict_present",
         "score": 1.0 if present else 0.0,
-        "comment": "Verdict label found." if present else "No recognizable verdict label found.",
+        "comment": "Verdict label found."
+        if present
+        else "No recognizable verdict label found.",
+    }
+
+
+def verdict_match_evaluator(run, example) -> dict:
+    """Compare the Overall Verdict with the golden expected verdict."""
+    actual = _extract_verdict((run.outputs or {}).get("final_report", ""))
+    expected = (example.outputs or {}).get("expected_verdict", "").strip().lower()
+    if expected == "approve with minor changes":
+        expected = "approve"
+    return {
+        "key": "verdict_match",
+        "score": 1.0 if actual is not None and actual == expected else 0.0,
+        "comment": f"Expected: {expected or 'missing'}; actual: {actual or 'missing'}.",
     }
 
 
@@ -111,4 +148,5 @@ ALL_EVALUATORS = [
     groundedness_evaluator,
     structure_evaluator,
     verdict_present_evaluator,
+    verdict_match_evaluator,
 ]
