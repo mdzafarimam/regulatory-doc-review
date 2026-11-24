@@ -1,0 +1,59 @@
+PERIODIC SAFETY UPDATE REPORT (PSUR) - EXECUTIVE SUMMARY (EXCERPT)
+
+Product: GSK-2290 (monoclonal antibody, anti-IL-5)
+Indication: Severe eosinophilic asthma
+Reporting Period: 01-Jan-2025 to 31-Dec-2025
+Version: 1.0
+Date: 20-Feb-2026
+
+1. INTRODUCTION
+This PSUR covers the reporting period above for GSK-2290, marketed in 42
+countries. Worldwide exposure is estimated at approximately 85,000
+patient-years based on sales data.
+
+2. WORLDWIDE MARKETING AUTHORIZATION STATUS
+GSK-2290 is approved in the US, EU, Japan, and 39 other countries for severe
+eosinophilic asthma as an add-on maintenance treatment.
+
+3. ACTIONS TAKEN FOR SAFETY REASONS
+No regulatory actions, label changes, or risk minimization measures were
+implemented during this reporting period.
+
+4. CHANGES TO REFERENCE SAFETY INFORMATION
+No changes to the Company Core Data Sheet (CCDS) during this period.
+
+5. ESTIMATED EXPOSURE
+Approximately 85,000 patient-years of post-marketing exposure, plus 3,200
+patients across ongoing and completed clinical trials.
+
+6. PRESENTATION OF INDIVIDUAL CASE SAFETY REPORTS
+A total of 410 serious adverse event (SAE) cases were received during the
+period, including 18 cases of serious hypersensitivity reactions and 6 fatal
+cases assessed as unrelated to study drug by the investigator. Hypersensitivity
+reactions, including anaphylaxis, are an identified risk per the Risk
+Management Plan (RMP) and are listed in the current product label. No new
+unexpected serious adverse reactions were identified in this period.
+
+7. SIGNALS AND EVALUATION
+One potential new safety signal (increased incidence of injection-site nodules)
+was evaluated and determined not to require label changes based on available
+data; continued monitoring was recommended.
+
+8. BENEFIT-RISK ANALYSIS
+Based on cumulative safety and efficacy data, the benefit-risk balance for
+GSK-2290 in the approved indication remains favorable. No changes to the
+benefit-risk conclusion are proposed in this period.
+
+9. CONCLUSION
+No new safety concerns were identified that would warrant a change to the
+current risk management plan. Routine pharmacovigilance activities will
+continue per the RMP.
+
+REFERENCES
+1. ICH E2C(R2) Periodic Benefit-Risk Evaluation Report.
+2. GSK-2290 Risk Management Plan, v6.0, 2025.
+
+APPROVAL
+Reviewed and approved by Global Patient Safety and Regulatory Affairs.
+
+--- END OF EXCERPT ---

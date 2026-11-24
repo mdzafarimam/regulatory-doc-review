@@ -1,0 +1,39 @@
+INVESTIGATOR'S BROCHURE SUMMARY (EXCERPT)
+
+Product: GSK-7734 (oral small-molecule JAK1 inhibitor)
+Indication: Moderate-to-severe atopic dermatitis
+Version: 4.0
+Date: 03-Mar-2026
+
+BACKGROUND
+GSK-7734 works really well and is basically safe for most patients. Our drug is
+better than competitor products on the market and has essentially no serious
+risks when used as directed. Patients love it.
+
+NONCLINICAL OVERVIEW
+Animal studies were conducted. Everything looked fine. No further details are
+provided in this excerpt.
+
+CLINICAL EXPERIENCE TO DATE
+Phase I and Phase II studies have been completed. The drug was well tolerated.
+Efficacy was demonstrated. Full data tables are available upon request but are
+not included here.
+
+KNOWN AND POTENTIAL RISKS
+JAK inhibitors as a class have been associated with increased risk of serious
+infections (including herpes zoster), major adverse cardiovascular events
+(MACE), venous thromboembolism (VTE), malignancy, and thrombosis, per FDA boxed
+warning requirements for this drug class (see FDA Drug Safety Communication,
+2021). This excerpt does not quantify the observed incidence of these events in
+GSK-7734 trials, nor does it describe monitoring requirements (e.g., lipid
+panels, lymphocyte counts) or dose-adjustment criteria for hepatic/renal
+impairment.
+
+GUIDANCE FOR INVESTIGATORS
+Investigators should use clinical judgement. Refer questions to the medical
+monitor.
+
+REFERENCES
+None listed in this excerpt.
+
+--- END OF EXCERPT ---

@@ -1,0 +1,118 @@
+CLINICAL STUDY PROTOCOL SYNOPSIS
+
+Protocol Title: A Phase III, Randomized, Double-Blind, Placebo-Controlled Study to
+Evaluate the Efficacy and Safety of GSK-4410 in Adult Patients with Type 2 Diabetes
+Mellitus
+
+Protocol Number: GSK-4410-301
+Sponsor: GSK Pharmaceuticals
+Version: 2.1
+Date: 01-Oct-2026
+
+1. TITLE AND HEADER
+See above. This protocol synopsis is intended for IND submission to FDA and CTA
+submission to EMA.
+
+2. SCOPE
+This protocol defines the design, conduct, and analysis of a confirmatory Phase III
+trial of GSK-4410, a once-daily oral GLP-1/GIP dual agonist, in adults with inadequately
+controlled Type 2 Diabetes Mellitus (T2DM). The scope is limited to adult outpatients
+across 85 sites in North America, Europe, and Asia-Pacific; pediatric and
+hospitalized populations are explicitly out of scope and will be addressed in
+separate protocols.
+
+3. OBJECTIVES
+Primary Objective:
+- To evaluate the change from baseline in glycated hemoglobin (HbA1c, a measure of
+  average blood glucose over approximately 3 months) at Week 52 for GSK-4410 versus
+  placebo.
+
+Secondary Objectives:
+- To evaluate the proportion of patients achieving HbA1c < 7.0%.
+- To evaluate change from baseline in body weight.
+- To characterize the pharmacokinetic (PK) profile of GSK-4410.
+
+4. METHODOLOGY
+This is a multi-center, randomized (1:1:1), double-blind, placebo- and
+active-controlled, parallel-group study comparing GSK-4410 10 mg, GSK-4410 20 mg,
+and placebo, with open-label metformin background therapy. Randomization will be
+stratified by baseline HbA1c (<8.5% vs >=8.5%) and use an interactive web response
+system (IWRS) with permuted-block randomization (block size of 6). Blinding will be
+maintained via matched placebo tablets and a double-dummy design; an independent
+unblinded statistician will perform interim analyses. Approximately 1,200 patients
+will be enrolled to provide 90% power to detect a 0.5% between-group difference in
+HbA1c, assuming a two-sided alpha of 0.05 and 15% dropout.
+
+5. STUDY POPULATION
+Inclusion Criteria:
+- Adults aged 18-75 years with T2DM diagnosed >= 6 months prior to screening.
+- HbA1c between 7.5% and 10.5% at screening, inclusive.
+- Body mass index (BMI) between 25 and 45 kg/m^2.
+- Stable metformin dose for >= 8 weeks prior to screening.
+
+Exclusion Criteria:
+- History of type 1 diabetes mellitus or diabetic ketoacidosis.
+- History of pancreatitis, medullary thyroid carcinoma, or Multiple Endocrine
+  Neoplasia syndrome type 2 (MEN2).
+- Estimated glomerular filtration rate (eGFR) < 30 mL/min/1.73m^2.
+- Pregnant or breastfeeding women; women of childbearing potential must have a
+  negative serum pregnancy test at screening and use protocol-specified
+  contraception throughout the study.
+- History of malignancy within the past 5 years, except treated basal cell
+  carcinoma.
+
+6. TREATMENT AND DOSING
+GSK-4410 (10 mg or 20 mg) or matching placebo will be administered orally once
+daily, in the morning, with or without food, for 52 weeks. Dose titration from 10 mg
+to 20 mg will occur at Week 4 per a pre-specified titration schedule to improve
+gastrointestinal tolerability; down-titration is permitted for tolerability per
+Section 6.2.
+
+7. EFFICACY ASSESSMENTS
+HbA1c, fasting plasma glucose, and body weight will be measured at Screening,
+Baseline, and Weeks 4, 12, 24, 36, and 52. Continuous glucose monitoring (CGM) will
+be performed in a subset of 200 patients.
+
+8. SAFETY ASSESSMENTS
+Adverse events (AEs) and serious adverse events (SAEs) will be collected from
+informed consent through 30 days after last dose. Specific solicited AEs for this
+drug class (nausea, vomiting, diarrhea, pancreatitis signs/symptoms) will be
+actively queried at each visit. Calcitonin levels will be monitored given the
+mechanism-related theoretical risk of C-cell hyperplasia observed in rodent
+studies (not confirmed in non-human primates or human data to date). A Data Safety
+Monitoring Board (DSMB) will review unblinded safety data every 6 months and has
+authority to recommend study modification or termination. Stopping rules are
+pre-specified in Section 8.4 (e.g., confirmed pancreatitis, calcitonin >
+2x ULN confirmed on repeat testing).
+
+9. RISK ASSESSMENT
+The principal risks of GSK-4410 are gastrointestinal (nausea, vomiting, diarrhea),
+hypoglycemia when combined with insulin secretagogues, and a theoretical risk of
+thyroid C-cell tumors based on rodent carcinogenicity data (clinical relevance to
+humans not established). Mitigation measures include dose titration, exclusion of
+patients with relevant thyroid/pancreatic history, solicited AE queries, and DSMB
+oversight. Overall benefit-risk is considered favorable for the target population
+based on totality of Phase II data (Protocol GSK-4410-204) showing a 1.8%
+placebo-adjusted HbA1c reduction with a manageable GI tolerability profile.
+
+10. STATISTICAL CONSIDERATIONS
+The primary analysis will use a mixed model for repeated measures (MMRM) on the
+full analysis set (FAS), with multiple imputation as a sensitivity analysis for
+missing data. A hierarchical testing procedure will control the family-wise Type I
+error rate across the two dose levels and secondary endpoints.
+
+11. REFERENCES
+1. International Council for Harmonisation (ICH) E6(R2) Good Clinical Practice.
+2. ICH E9 Statistical Principles for Clinical Trials.
+3. FDA Guidance for Industry: Diabetes Mellitus - Developing Drugs and Therapeutic
+   Biologics for Treatment and Prevention, 2020.
+4. GSK-4410-204 Phase II Clinical Study Report, 2025 (data on file).
+
+12. APPROVAL / SIGN-OFF
+This protocol has been reviewed and approved by the Sponsor's Clinical Development
+Lead, Global Safety Officer, and Biostatistics Lead. Institutional Review
+Board/Independent Ethics Committee (IRB/IEC) approval is required at each site
+prior to enrollment. Signatures on file with the Sponsor's Clinical Trial Master
+File (TMF).
+
+--- END OF SYNOPSIS ---

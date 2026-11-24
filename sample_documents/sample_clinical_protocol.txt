@@ -1,0 +1,68 @@
+CLINICAL STUDY PROTOCOL SYNOPSIS
+
+Protocol Title: A Phase II, Randomized, Double-Blind, Placebo-Controlled Study to
+Evaluate the Efficacy and Safety of GSK-9921 in Adult Patients with Moderate-to-Severe
+Plaque Psoriasis
+
+Protocol Number: GSK-9921-203
+Sponsor: GSK Pharmaceuticals
+Version: 1.0
+Date: 15-Nov-2026
+
+1. BACKGROUND AND RATIONALE
+Plaque psoriasis is a chronic immune-mediated skin disease affecting approximately
+2-3% of the global population. GSK-9921 is a novel selective IL-23 inhibitor. Preclinical
+studies have shown good tolerability in animal models, and Phase I data demonstrated
+an acceptable safety profile in healthy volunteers.
+
+2. OBJECTIVES
+Primary Objective:
+- To evaluate the efficacy of GSK-9921 compared to placebo in achieving PASI-75
+  response at Week 16.
+
+Secondary Objectives:
+- To evaluate the safety and tolerability of GSK-9921.
+- To assess the proportion of patients achieving PASI-90 and PASI-100.
+- To evaluate patient-reported quality of life outcomes (DLQI).
+
+3. STUDY DESIGN
+This is a multi-center, randomized, double-blind, placebo-controlled, parallel-group
+study. Approximately 240 patients will be randomized in a 2:1 ratio to receive either
+GSK-9921 300 mg or matching placebo, administered subcutaneously every 4 weeks for
+16 weeks.
+
+4. STUDY POPULATION
+Inclusion Criteria:
+- Adults aged 18-75 years.
+- Diagnosis of moderate-to-severe plaque psoriasis for at least 6 months.
+- PASI score >= 12 and body surface area (BSA) involvement >= 10% at screening.
+
+Exclusion Criteria:
+- History of active tuberculosis or other serious infections within 6 months.
+- Prior exposure to any IL-23 or IL-17 inhibitor.
+- Pregnant or breastfeeding women.
+
+5. TREATMENT AND DOSING
+GSK-9921 300 mg or placebo will be administered via subcutaneous injection at Weeks
+0, 4, 8, 12, and 16. Dose adjustments are not permitted during the treatment period.
+
+6. EFFICACY ASSESSMENTS
+PASI score, BSA, and Investigator Global Assessment (IGA) will be assessed at
+Screening, Baseline, and Weeks 4, 8, 12, and 16.
+
+7. SAFETY ASSESSMENTS
+Adverse events (AEs) and serious adverse events (SAEs) will be collected throughout
+the study. Routine laboratory tests (hematology, chemistry, urinalysis) will be
+performed at each visit. Patients will be monitored for signs of infection given the
+immunomodulatory mechanism of action.
+
+8. STATISTICAL CONSIDERATIONS
+A sample size of 240 patients (160 active, 80 placebo) provides approximately 90%
+power to detect a 30% difference in PASI-75 response rate between groups, assuming a
+two-sided alpha of 0.05.
+
+9. REFERENCES
+1. International Council for Harmonisation (ICH) E6(R2) Good Clinical Practice.
+2. FDA Guidance for Industry: Psoriasis - Developing Drugs for Treatment, 2018.
+
+--- END OF SYNOPSIS ---

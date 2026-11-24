@@ -1,0 +1,18 @@
+{
+  "python_version": "3.12",
+  "dependencies": ["."],
+  "graphs": {
+    "agent": "./agents/regulatory_review/graph.py:make_graph",
+    "agent_dev": "./agents/regulatory_review/graph.py:make_dev_graph",
+    "agent_staging": "./agents/regulatory_review/graph.py:make_staging_graph",
+    "agent_prod": "./agents/regulatory_review/graph.py:make_prod_graph"
+  },
+  "env": ".env",
+  "checkpointer": {
+    "ttl": {
+      "strategy": "delete",
+      "default_ttl": 10080,
+      "sweep_interval_minutes": 60
+    }
+  }
+}

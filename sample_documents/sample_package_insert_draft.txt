@@ -1,0 +1,49 @@
+PACKAGE INSERT / PRESCRIBING INFORMATION (DRAFT EXCERPT)
+
+Product Name: Cardiozine (fictional brand) / GSK-5512 (generic substance)
+Dosage Form: Oral tablet, 50 mg and 100 mg
+Indication: Adjunct therapy for chronic heart failure with reduced ejection
+fraction (HFrEF) in adults
+
+1. INDICATIONS AND USAGE
+Cardiozine is indicated for the tx of HFrEF pts, NYHA class II-III, to reduce
+the risk of CV death and HF hospitalization.
+
+2. DOSAGE AND ADMINISTRATION
+Start at 50mg once a day. May increase to 100mg based on response. Take with or
+without food. Renal adjustment: see dosing table (not included in this
+excerpt).
+
+3. CONTRAINDICATIONS
+- Known hypersensitivity to Cardiozine or its excipients.
+- Concurrent use with potent CYP3A4 inhibitors (interaction not further
+  described in this excerpt).
+
+4. WARNINGS AND PRECAUTIONS
+- Hyperkalemia: monitor serum potassium.
+- Hypotension: use caution in volume-depleted pts.
+- Renal function: monitor eGFR periodically; the periodicity and specific
+  action thresholds are not specified in this excerpt.
+
+5. ADVERSE REACTIONS
+The most commonly reported adverse reactions (incidence >= 5%) in clinical
+trials were dizziness, hyperkalemia, and hypotension. Specific incidence rates
+versus comparator are not provided in this excerpt.
+
+6. DRUG INTERACTIONS
+May interact with other drugs. Consult full prescribing information (not
+included) for a complete list.
+
+7. USE IN SPECIFIC POPULATIONS
+Pregnancy: Limited data. Lactation: Not recommended. Pediatric use: Safety and
+efficacy not established. Geriatric use: No overall differences in safety or
+efficacy observed relative to younger patients; this statement is not
+supported by referenced subgroup data in this excerpt.
+
+8. CLINICAL STUDIES
+Cardiozine was studied in a pivotal Phase III trial (CARDIOZINE-HF-301, n =
+4,200) that demonstrated a statistically significant reduction in the composite
+endpoint of CV death or HF hospitalization versus placebo (HR not stated in
+this excerpt; full results pending publication).
+
+--- END OF DRAFT EXCERPT ---
